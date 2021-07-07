@@ -7,7 +7,7 @@ export const ContactForm = () => {
     <Container maxW={{ base: 'container.xl', lg: '30em' }}>
       <Flex
         flexDir="column"
-        bg="rgba(255,255,255,70%)"
+        bg="rgba(255,255,245,60%)"
         padding="3em"
         borderRadius="10px"
       >

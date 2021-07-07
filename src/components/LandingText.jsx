@@ -12,15 +12,23 @@ export const LandingText = () => {
 
   return (
     <Flex flexDir="column">
-      <Heading fontWeight="light">
+      <Heading
+        fontWeight="light"
+        fontFamily="Roboto, sans-serif"
+        fontSize={{ base: 'medium', lg: '6xl' }}
+      >
         OPORTUNIDAD DE POZO EN LO MEJOR DE SAN MARTÍN CENTRO
       </Heading>
       <br />
       <Flex>
-        <Heading>DESDE USD 69.900</Heading>
-        <Heading marginLeft="0.5em" fontWeight="regular">
-          - 7mo "C"
+        <Heading fontSize={{ base: 'medium', lg: '6xl' }}>
+          DESDE USD 69.900
         </Heading>
+        <Flex alignItems="center">
+          <Heading marginLeft="0.5em" fontWeight="thin">
+            - 7mo "C"
+          </Heading>
+        </Flex>
       </Flex>
       <br />
       <Flex>
@@ -31,7 +39,7 @@ export const LandingText = () => {
         </Flex>
       </Flex>
       <br />
-      <Text>UNIDADES DE 2 Y 3 AMBIENTES</Text>
+      <Heading>UNIDADES DE 2 Y 3 AMBIENTES</Heading>
       <Text>EMPRENDIMIENTO PREMIUM</Text>
       <br />
       {perks.map((perk, index) => (
