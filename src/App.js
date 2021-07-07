@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { ChakraProvider, extendTheme, Flex } from '@chakra-ui/react';
 import { LandingPage } from './pages/LandingPage';
 import image1 from './media/c1.jpg';

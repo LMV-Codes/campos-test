@@ -24,8 +24,8 @@ export const LandingText = () => {
       </Flex>
       <br />
       <Flex>
-        <Flex bg="teal.500" padding="0.3em" justifyContent="center">
-          <Text color="yellow.200" letterSpacing="5px">
+        <Flex bg="rgb(63,91,66)" padding="0.3em" justifyContent="center">
+          <Text color="rgb(207,185,22)" letterSpacing="5px">
             ANTICIPO USD 30.000 + 48 CUOTAS EN PESOS O EN DÓLARES
           </Text>
         </Flex>

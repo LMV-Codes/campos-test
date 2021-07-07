@@ -5,7 +5,7 @@ import { LandingText } from '../components/LandingText';
 
 export const LandingPage = () => {
   return (
-    <Container maxW="container.xl" marginTop="5em">
+    <Container maxW="150em" marginTop="5em" centerContent>
       <Flex flexWrap={{ base: 'wrap', md: 'wrap', lg: 'nowrap' }}>
         <LandingText />
         <ContactForm />
