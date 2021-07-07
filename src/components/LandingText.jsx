@@ -35,7 +35,9 @@ export const LandingText = () => {
       <Text>EMPRENDIMIENTO PREMIUM</Text>
       <br />
       {perks.map((perk, index) => (
-        <Text textTransform="uppercase">- {perk}</Text>
+        <Text textTransform="uppercase" key={index}>
+          - {perk}
+        </Text>
       ))}
     </Flex>
   );
