@@ -3,7 +3,7 @@ import React from 'react';
 
 export const ContactForm = () => {
   return (
-    <Flex flexDir="column" bg="gray.100">
+    <Flex flexDir="column" bg="gray.300">
       <Heading textTransform="uppercase">campos</Heading>
       <Text>CONTACTATE CON NOSOTROS PARA RECIBIR MÁS INFORMACIÓN</Text>
       <Input placeholder="Nombre Completo" />
