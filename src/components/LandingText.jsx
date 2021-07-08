@@ -24,7 +24,7 @@ export const LandingText = () => {
       </Flex>
       <Flex>
         <Flex alignItems="center">
-          <Heading fontSize={{ base: '1.5em', lg: '6xl' }} fontFamily="roboto">
+          <Heading fontSize={{ base: '1.4em', lg: '6xl' }} fontFamily="roboto">
             DESDE USD 69.900
           </Heading>
         </Flex>
@@ -40,8 +40,8 @@ export const LandingText = () => {
           <Text
             textAlign={{ base: 'center', md: 'none', lg: 'none' }}
             color="rgb(207,185,22)"
-            letterSpacing={{ base: '2px', lg: '6px' }}
-            fontSize={{ base: '0.6em', md: '0.8em', lg: 'xl' }}
+            letterSpacing={{ base: '0px', lg: '6px' }}
+            fontSize={{ base: '1em', md: '0.8em', lg: 'xl' }}
           >
             ANTICIPO USD 30.000 + 48 CUOTAS EN PESOS O EN DÓLARES
           </Text>
