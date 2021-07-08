@@ -21,8 +21,8 @@ function App() {
 
   return (
     <ChakraProvider theme={theme}>
-      <BackgroundSlider images={imageArray} duration={10} transition={1} />
       <Flex minH="100vh">
+        <BackgroundSlider images={imageArray} duration={10} transition={1} />
         <LandingPage />
       </Flex>
     </ChakraProvider>
