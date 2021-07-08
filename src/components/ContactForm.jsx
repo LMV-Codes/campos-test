@@ -64,59 +64,54 @@ export const ContactForm = () => {
                 CONTACTATE CON NOSOTROS PARA RECIBIR MÁS INFORMACIÓN
               </Text>
             </Flex>
-            <form onSubmit={handleSubmit}>
-              <Input
-                placeholder="Nombre Completo"
-                marginTop="1em"
-                color="black"
-                variant="filled"
-              />
-              <Input
-                placeholder="Email *"
-                marginTop="1em"
-                color="black"
-                variant="filled"
-              />
-              <Input
-                placeholder="Telefono"
-                marginTop="1em"
-                color="black"
-                variant="filled"
-              />
-              <Input
-                placeholder="Comentarios"
-                marginTop="1em"
-                color="black"
-                variant="filled"
-              />
-              <Flex
-                justifyContent="center"
-                marginTop="1.5em"
-                color="black"
-                variant="filled"
+            <Input
+              placeholder="Nombre Completo"
+              marginTop="1em"
+              color="black"
+              variant="filled"
+            />
+            <Input
+              placeholder="Email *"
+              marginTop="1em"
+              color="black"
+              variant="filled"
+            />
+            <Input
+              placeholder="Telefono"
+              marginTop="1em"
+              color="black"
+              variant="filled"
+            />
+            <Input
+              placeholder="Comentarios"
+              marginTop="1em"
+              color="black"
+              variant="filled"
+            />
+            <Flex
+              justifyContent="center"
+              marginTop="1.5em"
+              color="black"
+              variant="filled"
+            >
+              <form action="?" method="POST">
+                <div className="g-recaptcha" data-sitekey="your_site_key"></div>
+                <br />
+              </form>
+            </Flex>
+            <Flex justifyContent="center">
+              <Button
+                bg="rgb(209,57,57)"
+                borderRadius="full"
+                textTransform="uppercase"
+                padding="1.5em"
+                fontSize="1.2em"
+                _hover={{ color: 'rgb(45,45,45)' }}
+                onClick={handleSubmit}
               >
-                <form action="?" method="POST">
-                  <div
-                    className="g-recaptcha"
-                    data-sitekey="your_site_key"
-                  ></div>
-                  <br />
-                </form>
-              </Flex>
-              <Flex justifyContent="center">
-                <Button
-                  bg="rgb(209,57,57)"
-                  borderRadius="full"
-                  textTransform="uppercase"
-                  padding="1.5em"
-                  fontSize="1.2em"
-                  _hover={{ color: 'rgb(45,45,45)' }}
-                  type="submit"
-                >
-                  Invertí ahora
-                </Button>
-              </Flex>
-            </form>
+                Invertí ahora
+              </Button>
+            </Flex>
           </>
         )}
       </Flex>
